@@ -28,5 +28,7 @@ Next comes compilation and execution:
 g++ fs.cc -o filemananger -lncursesw
 ./filemananger
 ```
+Or you could just download the binary.
+
 
 
