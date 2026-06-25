@@ -25,8 +25,8 @@ sudo cd~/your/path
 ```
 Next comes compilation and execution:
 ```bash
-g++ fs.cc -o filemananger -lncursesw
-./filemananger
+g++ fs.cc -o filemanager -lncursesw
+./filemanager
 ```
 Or you could just download the binary.
 Link --> https://github.com/dmitriysypachev6-coder/tui-file-manager/archive/refs/tags/v0.1-beta.zip
