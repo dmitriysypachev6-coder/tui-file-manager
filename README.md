@@ -11,3 +11,22 @@ In the future, I plan to further develop the project in all areas. I also plan t
 For now, the program has basic functionality—specifically, viewing folders but not modifying them. There is also a basic command, END, to exit the program. The right arrow is used to enter a folder, while the left arrow is used to exit.
 One of the project's goals is to implement intuitive, one-handed controls.
 
+Here are brief instructions on how to launch it:
+Installing dependencies:
+```bash
+sudo apt install libncurses-dev     --Debian/Ubuntu
+```
+```bash
+sudo dnf install ncurses-devel      --Fedora
+```
+Then, open any text editor and paste my code. Save it to any folder , name 'fs'. Afterward, go to the terminal and enter:
+```bash
+sudo cd~/your/path
+```
+Next comes compilation and execution:
+```bash
+g++ fs.cc -o filemananger -lncursesw
+./filemananger
+```
+
+
