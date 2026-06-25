@@ -29,6 +29,7 @@ g++ fs.cc -o filemananger -lncursesw
 ./filemananger
 ```
 Or you could just download the binary.
+https://github.com/dmitriysypachev6-coder/tui-file-manager/archive/refs/tags/v0.1-beta.zip
 
 
 
