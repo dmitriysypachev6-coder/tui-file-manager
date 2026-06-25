@@ -8,3 +8,5 @@ Over three days of learning and coding.
 
 In the future, I plan to further develop the project in all areas. I also plan to create a logo for it.
 
+For now, the program has basic functionality—specifically, viewing folders but not modifying them. There is also a basic command, END, to exit the program.
+
