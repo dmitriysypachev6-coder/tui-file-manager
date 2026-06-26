@@ -34,6 +34,7 @@ Next comes compilation and execution:
 g++ fs.cc -o filemanager -lncursesw
 ./filemanager
 ```
+You also need to specify your personal path in line 18.
 Or you could just download the binary.
 Link --> https://github.com/dmitriysypachev6-coder/tui-file-manager/archive/refs/tags/v0.1-beta.zip
 Link2 --> https://github.com/dmitriysypachev6-coder/tui-file-manager/archive/refs/tags/v0.1-beta.tar.gz
