@@ -43,5 +43,8 @@ Link2 --> https://github.com/dmitriysypachev6-coder/tui-file-manager/archive/ref
 
 This version added the ability to create and delete files and folders. In the future, I plan to add the ability to open .txt files in the nano text editor or any other terminal-based text editor.
 
+# bug-putch_beta_v0.2
+This patch adds scrolling for viewing large folders. Several minor bugs have been fixed.
+
 
 
