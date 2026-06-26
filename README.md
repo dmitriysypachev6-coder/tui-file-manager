@@ -21,9 +21,15 @@ sudo dnf install ncurses-devel      --Fedora
 ```
 Then, open any text editor and paste my code. Save it to any folder , name 'fs'. Afterward, go to the terminal and enter:
 ```bash
-sudo cd~/your/path
+cd ~/your/path
 ```
+Enterance to super user:
+```bash
+sudo su
+```
+
 Next comes compilation and execution:
+
 ```bash
 g++ fs.cc -o filemanager -lncursesw
 ./filemanager
