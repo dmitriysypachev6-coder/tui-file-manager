@@ -32,5 +32,9 @@ Or you could just download the binary.
 Link --> https://github.com/dmitriysypachev6-coder/tui-file-manager/archive/refs/tags/v0.1-beta.zip
 Link2 --> https://github.com/dmitriysypachev6-coder/tui-file-manager/archive/refs/tags/v0.1-beta.tar.gz
 
+#beta v0.2
+
+This version added the ability to create and delete files and folders. In the future, I plan to add the ability to open .txt files in the nano text editor or any other terminal-based text editor.
+
 
 
