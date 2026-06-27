@@ -46,5 +46,7 @@ This version added the ability to create and delete files and folders. In the fu
 # bug-putch_beta_v0.2
 This patch adds scrolling for viewing large folders. Several minor bugs have been fixed.
 
+## beta_v0.3
+
 
 
