@@ -43,10 +43,10 @@ Link2 --> https://github.com/dmitriysypachev6-coder/tui-file-manager/archive/ref
 
 This version added the ability to create and delete files and folders. In the future, I plan to add the ability to open .txt files in the nano text editor or any other terminal-based text editor.
 
-# bug-putch_beta_v0.2
+## bug-putch_beta_v0.2
 This patch adds scrolling for viewing large folders. Several minor bugs have been fixed.
 
-## beta_v0.3
-
+# beta_v0.3
+In this version, I added automatic file size formatting; for instance, if a file is smaller than a kilobyte, its size is displayed in bytes, scaling up to gigabytes. I also implemented automatic detection of the home directory, so you no longer need to manually update the path. Additionally, you can now open files in the *nano* text editor. I also moved the controls to the left side of the keyboard to take advantage of the greater number of keys available there; for example, navigating through folders is now done using WASD, though arrow key controls remain supported as well.
 
 
