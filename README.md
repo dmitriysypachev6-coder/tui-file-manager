@@ -1,4 +1,4 @@
-[🇬🇧 English](./README.en.md) | [🇷🇺 Русский](./README.md)
+[🇬🇧 English](./README.md) | [🇷🇺 Русский](./README_ru.md)
 # TUI File Manager
 
 A simple terminal-based file manager with keyboard control.  
