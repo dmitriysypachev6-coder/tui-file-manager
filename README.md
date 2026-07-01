@@ -51,9 +51,9 @@ fm
 | `↑` / `↓` / `w` / `s` | Move through the list |
 | `→` / `d` | Enter folder |
 | `←` / `a` | Go to parent folder |
-| `Ins` | Create a new file |
-| `/` | Create a new folder |
-| `Del` | Delete selected item |
+| `q` | Create a new file |
+| `z` | Create a new folder |
+| `e` | Delete selected item |
 | `Esc` | Exit program |
 | `R` / `.` | Show or hide the file |
 
