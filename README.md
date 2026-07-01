@@ -13,6 +13,7 @@ Written in C++ using the **ncurses** library.
 - Delete files and folders (with confirmation)
 - One-handed control (keys within reach)
 - UTF‑8 support (Cyrillic in filenames)
+- Access from any folder, not just the one where it is located.
 
 ---
 
@@ -29,22 +30,25 @@ Written in C++ using the **ncurses** library.
 ### Build
 
 ```bash
-g++ fm_beta_v0.2.cc -o filemanager -lncursesw
+g++ fm_beta_v0.2.cc -o fm -lncursesw
+```
+```bash
+sudo cp fm /usr/local/bin/fm
 ```
 
 ### Run
 
 ```
-./filemanager
+fm
 ```
 
 ## Controls
 
 | Key | Action |
 |---|---|
-| `↑` / `↓` | Move through the list |
-| `→` | Enter folder |
-| `←` | Go to parent folder |
+| `↑` / `↓` / `w` / `s` | Move through the list |
+| `→` / `d` | Enter folder |
+| `←` / `a` | Go to parent folder |
 | `Ins` | Create a new file |
 | `/` | Create a new folder |
 | `Del` | Delete selected item |
