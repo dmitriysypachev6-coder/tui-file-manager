@@ -14,6 +14,8 @@ Written in C++ using the **ncurses** library.
 - One-handed control (keys within reach)
 - UTF‑8 support (Cyrillic in filenames)
 - Access from any folder, not just the one where it is located.
+- White files, blue folders.
+- Hidden files
 
 ---
 
@@ -52,7 +54,8 @@ fm
 | `Ins` | Create a new file |
 | `/` | Create a new folder |
 | `Del` | Delete selected item |
-| `Ctrl+C` | Exit program |
+| `Esc` | Exit program |
+| `R` / `.` | Show or hide the file |
 
 > Exit via `END` command is not yet implemented – use `Ctrl+C`.
 
@@ -62,13 +65,16 @@ fm
 tui-file-manager/
 ├── fm_beta_v0.1.cc      # First version (view only)
 ├── fm_beta_v0.2.cc      # Current version (create/delete)
+├── bug-patch_beta_v0.2.cc  # putch
+├── fm_beta_v0.3.cc
+├── fm_beta_v0.4.cc 
 ├── LICENSE              # GPL-3.0 License
 └── README.md            # This file
 ```
 
 ## Roadmap
 
-- Open `.txt` in `nano` on `Enter`
+- Open `.txt` in `nano` on `X`
 - Support `END` command to exit
 - Error handling for inaccessible folders
 - Interface localization (RU/EN)
